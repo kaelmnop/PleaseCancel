@@ -1,7 +1,9 @@
+import DemoWrapper from '@/components/DemoWrapper';
+
 export default function Home() {
   return (
-    <main>
-      <h1>Calendar App</h1>
+    <main className="flex min-h-screen items-center justify-center">
+      <DemoWrapper />
     </main>
   );
 }
